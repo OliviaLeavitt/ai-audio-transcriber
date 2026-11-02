@@ -11,3 +11,12 @@ logs/*
 
 .pytest_cache
 .vscode/
+
+# Local development and secrets
+.venv/
+venv/
+.env.*
+!.env.example
+*.pem
+*.key
+.ruff_cache/
